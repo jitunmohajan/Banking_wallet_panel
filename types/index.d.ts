@@ -29,7 +29,7 @@ declare type User = {
   $id: string;
   email: string;
   userId: string;
-  dwollaCustomerUrl: string;
+  dwollaCustomerUrl : string;
   dwollaCustomerId: string;
   firstName: string;
   lastName: string;
