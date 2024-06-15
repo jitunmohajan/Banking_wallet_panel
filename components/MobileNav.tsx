@@ -29,9 +29,9 @@ const MobileNav = ({ user }: MobileNavProps) => {
             className='cursor-pointer'
           />
         </SheetTrigger>
-        <SheetContent side="left" className="boarder-none bg-white gap-1 px-4">
-          <nav className='flex flex-col gap-4'>
-              <Link href='/' className='cursor-pointer flex items-center gap-2'>
+        <SheetContent side="left" className="boarder-none bg-white">
+          {/* <nav className='flex flex-col gap-4'> */}
+              <Link href='/' className='cursor-pointer flex items-center gap-1 px-4'>
                 <Image 
                   src='icons/logo.svg' 
                   width={34} 
@@ -71,7 +71,7 @@ const MobileNav = ({ user }: MobileNavProps) => {
                   </nav>
                 </SheetClose>
               </div>
-          </nav>
+          {/* </nav> */}
         </SheetContent>
       </Sheet>
 
