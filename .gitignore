@@ -1,5 +1,3 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
-
 # ignore files
 .next
 .idea
@@ -32,6 +30,7 @@ yarn-error.log*
 # local env files
 .env*.local
 .env
+.idea
 
 # vercel
 .vercel
@@ -42,6 +41,3 @@ next-env.d.ts
 
 # Sentry Config File
 .env.sentry-build-plugin
-
-
-.idea
